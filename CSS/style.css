@@ -1,0 +1,23 @@
+body, html {
+    height: 90%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #f0f0f0;
+}
+
+.form {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    width: 100%; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
